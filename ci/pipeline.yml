@@ -118,6 +118,8 @@ resources:
   source:
     uri: {{GIT_REPO}}
     branch: master
+    username: mail@danielgruber.com
+    password: {{PW}}
 
 - name: deploy-test-app
   type: cf
