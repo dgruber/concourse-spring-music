@@ -118,7 +118,6 @@ resources:
   source:
     uri: {{GIT_REPO}}
     branch: master
-    private_key: {{GIT_PRIVATE_KEY}}
 
 - name: deploy-test-app
   type: cf
