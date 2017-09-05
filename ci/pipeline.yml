@@ -173,7 +173,7 @@ resources:
 - name: production-release
   type: s3
   source:
-    regioni_name: eu-west-1
+    region_name: eu-west-1
     bucket: {{S3_BUCKET}}
     regexp: {{S3_DEPLOYMENTS}}
     access_key_id: {{S3_ACCESS_KEY_ID}}
